@@ -41,3 +41,14 @@ aside {
   height: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  body {
+    background-color: lightsalmon;
+  }
+  main,
+  aside {
+    width: 100%;
+    padding:30px;
+    float:left;
+  }
+}
